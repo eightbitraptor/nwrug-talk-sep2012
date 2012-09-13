@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(DroidSansMono.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'LeagueGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(LeagueGothic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Lobster.woff) format('woff');
+}
+
+body{
+  font-family: 'Helvetica';
+  color: #0B486B;
+}
+
+#preso .slide {
+  background-color: #A8DBA8;
+}
+
+.content > pre,
+.content > pre > code{
+  font-size: 1.7em;
+  font-family: 'Droid Sans Mono';
+  line-height: 1.0em
+}
+
+.content > pre > code{
+  font-size: 1em
+}
+
+h1 {
+  font-family: 'Lobster'
+}
+
+.bullets > ul {
+  list-style: disc inside;
+}
+
+dl {
+  font-size: 3em;
+  text-align: center;
+}
+
+dt {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: 'Lobster';
+}
+
+dd {
+  margin-bottom: 1.5em;
+
+}

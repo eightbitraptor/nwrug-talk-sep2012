@@ -1,0 +1,13 @@
+{
+  "markdown":"redcarpet",
+  "name": "Test Driven Puppet",
+  "description": "Testing Puppet modules using Cucumber, Vagrant, and more",
+  "sections": [
+    {"section": "puppet"},
+    {"section": "puppet-rspec"},
+    {"section": "vagrant"},
+    {"section": "vagrant-cucumber"},
+    {"section": "kuroko"},
+    {"section": "fin"}
+  ]
+}
