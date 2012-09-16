@@ -1,0 +1,3 @@
+require 'rubystack'
+
+include rubystack
