@@ -40,13 +40,23 @@ body{
   font-size: 1.7em;
   font-family: 'Droid Sans Mono';
   line-height: 1.0em;
-  background-color: #eee;
+  background-color: #fff;
   border: 2px solid #999;
 }
 
 .content > pre > code{
   font-size: 1em;
   border: none;
+}
+
+pre.sh_sourceCode .sh_regexp{
+  font-family: 'Droid Sans Mono';
+  color: blue;
+}
+
+pre.sh_sourceCode .sh_string{
+  font-family: 'Droid Sans Mono';
+  color: red;
 }
 
 h1 {
@@ -99,4 +109,8 @@ img.enlarginate {
   top: 0; left: 0;
   width: 1024px;
   height: 768px;
+}
+
+.content > p > img {
+  margin-top: -270px;
 }
