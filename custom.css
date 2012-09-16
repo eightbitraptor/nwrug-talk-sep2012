@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'Junction';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Junction.woff) format('woff');
+}
+
+@font-face {
   font-family: 'LeagueGothic';
   font-style: normal;
   font-weight: 400;
@@ -20,7 +27,7 @@
 }
 
 body{
-  font-family: 'Helvetica';
+  font-family: 'Roboto Cn';
   color: #0B486B;
 }
 
@@ -32,19 +39,18 @@ body{
 .content > pre > code{
   font-size: 1.7em;
   font-family: 'Droid Sans Mono';
-  line-height: 1.0em
+  line-height: 1.0em;
+  background-color: #eee;
+  border: 2px solid #999;
 }
 
 .content > pre > code{
-  font-size: 1em
+  font-size: 1em;
+  border: none;
 }
 
 h1 {
   font-family: 'Lobster'
-}
-
-.bullets > ul {
-  list-style: disc inside;
 }
 
 dl {
@@ -62,4 +68,35 @@ dt {
 dd {
   margin-bottom: 1.5em;
 
+}
+
+.content > blockquote {
+  font-family: 'Roboto Cn';
+  font-style: italic;
+  text-align: center;
+  font-size: 3.4em;
+}
+
+.content.command > p {
+  font-family: 'Droid Sans Mono';
+  font-size: 4em;
+}
+
+.content.center > p {
+  margin: 0;
+}
+
+.content.center > p > img {
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 768px;
+  width: 1024px;
+}
+
+img.enlarginate {
+  position: absolute;
+  top: 0; left: 0;
+  width: 1024px;
+  height: 768px;
 }

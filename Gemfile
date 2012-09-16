@@ -1,5 +1,3 @@
 source :rubygems
 
-gem 'showoff', github: 'schacon/showoff'
-gem 'rmagick'
-gem 'redcarpet'
+gem 'showoff', :github => 'schacon/showoff'
