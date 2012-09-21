@@ -53,7 +53,8 @@ class jenkins {
 #Testing Ordering
 <pre class="sh_ruby">
 it "builds an ssh directory for an existing user" do
-  should contain_file('/home/matth/.ssh').with_require('User[matth]')
+  should contain_file('/home/matth/.ssh').
+    with_require('User[matth]')
 end
 </pre>
 

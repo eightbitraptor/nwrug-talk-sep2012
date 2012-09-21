@@ -117,6 +117,12 @@ package{ "nginx":
   ensure => installed,
 }
 </pre>
+<pre class="sh_ruby">
+package{ "nginx":
+  ensure => installed,
+  provider => homebrew,
+}
+</pre>
 
 !SLIDE
 #Facter

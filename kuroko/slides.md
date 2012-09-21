@@ -4,17 +4,6 @@
 
 !SLIDE
 <pre class="sh_ruby">
-source :rubygems
-
-gem 'kuroko'
-</pre>
-
-<pre class="sh_ruby">
-bundle install
-</pre>
-
-!SLIDE
-<pre class="sh_ruby">
 require 'kuroko'
 
 project_root = File.expand_path('../../../', __FILE__)
@@ -40,7 +29,7 @@ Then /^I should have Jenkins installed$/ do
 end
 
 And /^it should be running$/ do
-  run_vagrant_command('sudo /sbin/service jenkins status')
+  run_sudo_command('/sbin/service jenkins status')
 end
 
 Then /^I should have the (.*) plugin installed$/ do |name|
@@ -95,3 +84,7 @@ at_exit {
 
 !SLIDE
 #Demo
+
+!SLIDE
+#Thanks
+#Questions?

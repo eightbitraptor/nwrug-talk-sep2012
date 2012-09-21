@@ -22,4 +22,5 @@ class rubystack {
     ensure => running,
     require => Package['mysql-server']
   }
+
 }

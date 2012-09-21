@@ -37,7 +37,7 @@ body{
 
 .content > pre,
 .content > pre > code{
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-family: 'Droid Sans Mono';
   line-height: 1.0em;
   background-color: #fff;
@@ -113,4 +113,8 @@ img.enlarginate {
 
 .content > p > img {
   margin-top: -270px;
+}
+
+.content > p > img[title=notbad] {
+  margin-top: -40px;
 }
